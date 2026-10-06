@@ -1,0 +1,29 @@
+# Vercel link metadata (project/org IDs, CLI state)
+.vercel/
+
+# Environment files (none are used by this static site)
+.env
+.env.*
+*.env
+
+# Dependencies / build output (no build step, but keeps future tooling clean)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.sublime-workspace

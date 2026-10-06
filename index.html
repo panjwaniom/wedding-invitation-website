@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>#SuruKiNikku — Manali &amp; Suraj</title>
+  <meta name="description" content="You're invited to celebrate the wedding of Dr. Manali Panjwani &amp; Adv. Suraj Wagwani — The Grand Affair, 9th September 2026">
+  <meta property="og:title" content="#SuruKiNikku — Manali &amp; Suraj">
+  <meta property="og:description" content="Join us to celebrate the wedding of Dr. Manali Panjwani &amp; Adv. Suraj Wagwani — 9th Sept 2026, Grand Imperia, Raipur">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://surukinikku.vercel.app/">
+  <meta property="og:image" content="https://surukinikku.vercel.app/ogimage.jpg?v=4">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://surukinikku.vercel.app/ogimage.jpg?v=4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Josefin+Sans:wght@300;400;500;600&family=Great+Vibes&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <div class="loader-mandala">&#10048;</div>
+      <div class="loader-text">Manali &amp; Suraj</div>
+      <div class="loader-date">9 . 9 . 2026</div>
+    </div>
+  </div>
+
+  <!-- ENVELOPE OVERLAY (appears after Open Invitation click) -->
+  <div class="envelope-overlay" id="envelopeOverlay">
+    <div class="envelope-wrapper">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="envelope-card">
+          <p class="card-names">Manali &amp; Suraj</p>
+          <p class="card-date">9 . 9 . 2026</p>
+        </div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-front"></div>
+      </div>
+      <p class="envelope-hint">Tap anywhere to open</p>
+    </div>
+  </div>
+
+  <!-- MUSIC TOGGLE -->
+  <button class="music-toggle" id="musicToggle" aria-label="Toggle music">
+    <svg class="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+    </svg>
+  </button>
+
+  <!-- MAIN SCROLL -->
+  <main class="main-scroll" id="mainScroll">
+
+    <!-- SECTION 1: LANDING -->
+    <section class="landing" id="landing">
+      <div class="landing-bg">
+        <div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+        <div class="petal petal-1"></div><div class="petal petal-2"></div><div class="petal petal-3"></div>
+        <div class="petal petal-4"></div><div class="petal petal-5"></div><div class="petal petal-6"></div>
+        <div class="petal petal-7"></div><div class="petal petal-8"></div>
+      </div>
+      <div class="decorative-circle circle-1"></div>
+      <div class="decorative-circle circle-2"></div>
+      <div class="decorative-circle circle-3"></div>
+      <div class="landing-content">
+        <div class="mandala-top">&#10048;</div>
+        <p class="landing-blessing">With love &amp; warm wishes from both families</p>
+        <h1 class="landing-names">
+          <span class="name-bride">Manali</span>
+          <span class="landing-ampersand">&amp;</span>
+          <span class="name-groom">Suraj</span>
+        </h1>
+        <p class="landing-hashtag">#SuruKiNikku</p>
+        <div class="landing-divider">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">&#9830;</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="landing-date">9 / 9 / 2026</p>
+        <button class="open-btn" id="openInvite">
+          <span class="open-btn-ring"></span>
+          <span class="open-btn-text">Open Invitation</span>
+          <span class="open-btn-icon">&#10084;</span>
+        </button>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#formalInvite" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 2: FORMAL INVITE (Parents) -->
+    <section class="section formal-invite" id="formalInvite">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/backgrounds/bg-invite.jpg')"></div></div>
+      <div class="bg-overlay bg-overlay--light"></div>
+      <div class="section-bg-float">
+        <div class="float-element fe-1">&#10048;</div>
+        <div class="float-element fe-2">&#9830;</div>
+        <div class="float-element fe-3">&#10048;</div>
+      </div>
+      <div class="invite-card">
+        <div class="invite-card-border"></div>
+        <p class="invite-opening">A Special Invitation For You</p>
+        <div class="invite-names-block">
+          <p class="invite-parents"><em>Mr. Mahesh Panjwani &amp; Mrs. Nisha Panjwani joyfully invite you to celebrate the wedding of their beloved daughter</em></p>
+          <h2 class="invite-bride">Dr. Manali Panjwani</h2>
+        </div>
+        <div class="invite-ampersand-decorative">
+          <span class="inv-amp-line"></span>
+          <span class="inv-amp-symbol">&amp;</span>
+          <span class="inv-amp-line"></span>
+        </div>
+        <div class="invite-names-block">
+          <p class="invite-parents"><em>with the son of Late Mr. Dilip Wagwani &amp; Mrs. Simran Wagwani</em></p>
+          <h2 class="invite-groom">Adv. Suraj Wagwani</h2>
+        </div>
+        <div class="invite-blessing">
+          <p>With heartfelt wishes &amp; the blessings of our elders,</p>
+          <p>we cordially invite you to grace this joyous celebration of their union.</p>
+        </div>
+        <div class="invite-event-badge">
+          <span class="badge-ornament">&#10048;</span>
+          <span class="badge-text">The Grand Affair</span>
+          <span class="badge-ornament">&#10048;</span>
+        </div>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#coupleSection" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 3: COUPLE -->
+    <section class="section couple-section" id="coupleSection">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/backgrounds/bg-couple.jpg')"></div></div>
+      <div class="bg-overlay bg-overlay--soft"></div>
+      <div class="section-bg-float">
+        <div class="float-element fe-1">&#10048;</div>
+        <div class="float-element fe-2">&#9830;</div>
+        <div class="float-element fe-3">&#10048;</div>
+      </div>
+      <div class="couple-frame">
+        <div class="frame-corner tl"></div><div class="frame-corner tr"></div>
+        <div class="frame-corner bl"></div><div class="frame-corner br"></div>
+        <div class="couple-illustration"><img src="assets/illustrations/goodcouple.png" alt="Manali &amp; Suraj"></div>
+      </div>
+      <div class="couple-names-display">
+        <span class="cnd-name">Manali</span>
+        <span class="cnd-heart">&#10084;</span>
+        <span class="cnd-name">Suraj</span>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#dateReveal" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 4: MARK YOUR CALENDAR (auto confetti) -->
+    <section class="section date-reveal-section" id="dateReveal">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/backgrounds/bg-date.jpg')"></div></div>
+      <div class="bg-overlay bg-overlay--light"></div>
+      <h3 class="section-title">Mark Your Calendar</h3>
+      <div class="date-card" id="dateCard">
+        <p class="date-label">Save the Date</p>
+        <div class="date-big">
+          <span class="date-day">9</span><span class="date-separator">/</span>
+          <span class="date-month">9</span><span class="date-separator">/</span>
+          <span class="date-year">2026</span>
+        </div>
+        <p class="date-day-name">Wednesday</p>
+        <div class="confetti-container" id="confettiContainer"></div>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#eventSection" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 5: GRAND AFFAIR (Venue) -->
+    <section class="section event-section" id="eventSection">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/venue.png')"></div></div>
+      <div class="bg-overlay bg-overlay--venue"></div>
+      <div class="section-bg-float">
+        <div class="float-element fe-1">&#10048;</div>
+        <div class="float-element fe-2">&#9830;</div>
+        <div class="float-element fe-3">&#10048;</div>
+      </div>
+      <h3 class="section-title">The Grand Affair</h3>
+      <div class="event-card">
+        <div class="event-icon">&#128141;</div>
+        <div class="event-details">
+          <div class="event-row"><span class="event-label">Date</span><span class="event-value">9th September 2026, Wednesday</span></div>
+          <div class="event-row"><span class="event-label">Time</span><span class="event-value">8:00 PM Onwards</span></div>
+          <div class="event-row"><span class="event-label">Venue</span><span class="event-value">Grand Imperia</span></div>
+          <div class="event-row"><span class="event-label">Address</span><span class="event-value">VIP Road, Vishal Nagar, Raipur, Chhattisgarh 492006</span></div>
+        </div>
+      </div>
+      <div class="event-btns">
+        <a class="directions-btn" href="https://maps.google.com/?q=Grand+Imperia+VIP+Road+Vishal+Nagar+Raipur+Chhattisgarh" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Get Directions
+        </a>
+        <button class="calendar-btn" id="addToCalendar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Add to Calendar
+        </button>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#storySection" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 6: LITTLE STARS -->
+    <section class="section story-section" id="storySection">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/backgrounds/bg-story.jpg')"></div></div>
+      <div class="bg-overlay bg-overlay--light"></div>
+      <div class="section-bg-float">
+        <div class="float-element fe-1">&#10048;</div>
+        <div class="float-element fe-2">&#9830;</div>
+        <div class="float-element fe-3">&#10048;</div>
+      </div>
+      <h3 class="section-title">Little Stars</h3>
+      <div class="story-content">
+        <div class="story-photo-frame"><img src="assets/story.png" alt="Their Journey"></div>
+        <div class="story-text">
+          <p class="story-line story-line-1">Long before they knew it, their paths were already crossing.</p>
+          <p class="story-line story-line-2">Little smiles, innocent dreams, and a destiny written in the stars — two beautiful journeys that were always meant to become one.</p>
+          <p class="story-line story-line-3">Now, as they step into forever together, they invite you to bless and celebrate this beautiful union.</p>
+        </div>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#rsvpSection" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 7: RSVP -->
+    <section class="section rsvp-section" id="rsvpSection">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/backgrounds/bg-rsvp.jpg')"></div></div>
+      <div class="bg-overlay bg-overlay--light"></div>
+      <div class="section-bg-float">
+        <div class="float-element fe-1">&#10048;</div>
+        <div class="float-element fe-2">&#9830;</div>
+        <div class="float-element fe-3">&#10048;</div>
+      </div>
+      <h3 class="section-title">Confirm Your Presence</h3>
+      <p class="rsvp-subtitle">Let us know if you can grace us with your presence</p>
+      <form class="rsvp-form" id="rsvpForm" action="https://formspree.io/f/mbgjgddj" method="POST">
+        <div class="form-group"><label for="rsvpName">Your Name</label><input type="text" id="rsvpName" name="name" placeholder="Enter your name" required></div>
+        <div class="form-group"><label for="rsvpGuests">Number of Guests Coming</label>
+          <select id="rsvpGuests" name="guests"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option><option value="5+">5+</option></select>
+        </div>
+        <div class="form-group"><label for="rsvpMessage">Your Blessings for the Couple</label><textarea id="rsvpMessage" name="message" placeholder="Write your blessings..." rows="3"></textarea></div>
+        <button type="submit" class="rsvp-submit"><span>Send Blessings</span><span class="submit-heart">&#10084;</span></button>
+      </form>
+      <div class="rsvp-confirmation" id="rsvpConfirmation" style="display:none;">
+        <div class="confirmation-icon">&#10004;</div>
+        <h4>Thank You!</h4>
+        <p>We have received your confirmation. We look forward to celebrating with you!</p>
+      </div>
+      <div class="scroll-arrow-wrap">
+        <a class="scroll-arrow" href="#closingSection" aria-label="Scroll down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 8: COUNTDOWN + CLOSING -->
+    <section class="section closing-section" id="closingSection">
+      <div class="bg-image-wrap"><div class="bg-image-moving" style="background-image: url('assets/backgrounds/bg-closing.jpg')"></div></div>
+      <div class="bg-overlay bg-overlay--soft"></div>
+      <div class="section-bg-float">
+        <div class="float-element fe-1">&#10048;</div>
+        <div class="float-element fe-2">&#9830;</div>
+        <div class="float-element fe-3">&#10048;</div>
+      </div>
+      <div class="closing-top">
+        <div class="closing-flower">&#10047;</div>
+        <p class="closing-text">We can't wait to celebrate with you</p>
+        <p class="closing-names">Manali &amp; Suraj</p>
+        <p class="closing-date">9 / 9 / 2026</p>
+        <div class="closing-hashtag">#SuruKiNikku</div>
+      </div>
+      <div class="countdown-divider"></div>
+      <div class="countdown-block">
+        <p class="countdown-title">Counting Down To The Big Day</p>
+        <div class="countdown-wrapper">
+          <div class="countdown-item"><span class="countdown-value" id="cd-days">0</span><span class="countdown-label">Days</span></div>
+          <span class="countdown-separator">:</span>
+          <div class="countdown-item"><span class="countdown-value" id="cd-hours">0</span><span class="countdown-label">Hours</span></div>
+          <span class="countdown-separator">:</span>
+          <div class="countdown-item"><span class="countdown-value" id="cd-mins">0</span><span class="countdown-label">Minutes</span></div>
+          <span class="countdown-separator">:</span>
+          <div class="countdown-item"><span class="countdown-value" id="cd-secs">0</span><span class="countdown-label">Seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
